@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai tap</title>
+</head>
+<body>
+<script>
+    function key() {
+        var mangsonguyen = [];
+        for (let i = 0; i < 5; i++) {
+            mangsonguyen.push(prompt("Nhập"))
+        }
+        document.write(mangsonguyen);
+        document.write("<br>");
+        let arr = mangsonguyen.reverse().join(",");
+        document.write(arr);
+    }
+    key()
+</script>
+
+</body>
+</html>
